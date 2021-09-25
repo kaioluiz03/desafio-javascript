@@ -1,49 +1,58 @@
 /*1*/var tesouraVsPaPel = 'Tesoura corta Papel!';
 /*2*/var papelVsPedra = 'Papel cobre Veneno!';
-    papelVsPedra = papelVsPedra.replace("Veneno", "Pedra");
+     var afterpapelVsPedra;
+     afterpapelVsPedra = papelVsPedra.replace("Veneno", "Pedra");
 
 /*3*/var pedraVsTesoura = 'Pedra esmaga Lagarto!';
-    pedraVsTesoura = pedraVsTesoura.replace("esmaga", "quebra");
-    pedraVsTesoura = pedraVsTesoura.replace("Lagarto", "Tesoura");
+     var afterpedraVsTesoura;
+     afterpedraVsTesoura = pedraVsTesoura.replace("esmaga", "quebra");
+     afterpedraVsTesoura = pedraVsTesoura.replace("Lagarto", "Tesoura");
 
 /*4*/var tesouraVsPapel2 = 'Lagarto corta Spock!';
-    tesouraVsPapel2 = tesouraVsPapel2.replace("Lagarto", "Tesoura");
-    tesouraVsPapel2 = tesouraVsPapel2.replace("Spock", "Papel");
+     var aftertesouraVsPapel2
+     aftertesouraVsPapel2 = tesouraVsPapel2.replace("Lagarto", "Tesoura");
+     aftertesouraVsPapel2 = tesouraVsPapel2.replace("Spock", "Papel");
 
 /*5*/var papelVsTesoura = 'Spock vaporiza Tesoura!';
-    papelVsTesoura = papelVsTesoura.replace("Spock", "Papel");
-    papelVsTesoura = papelVsTesoura.replace("vaporiza", "embrulha");
+     var afterpapelVsTesoura;
+     afterpapelVsTesoura = papelVsTesoura.replace("Spock", "Papel");
+     afterpapelVsTesoura = papelVsTesoura.replace("vaporiza", "embrulha");
 
 /*6*/var tesouraVsPapel3 = 'Tesoura decapita Spock!';
-    tesouraVsPapel3 = tesouraVsPapel3.replace("decapita", "corta");
-    tesouraVsPapel3 = tesouraVsPapel3.replace("Spock", "Papel");
+     var aftertesouraVsPapel3;
+     aftertesouraVsPapel3 = tesouraVsPapel3.replace("decapita", "corta");
+     aftertesouraVsPapel3 = tesouraVsPapel3.replace("Spock", "Papel");
 
 /*7*/var tesouraVsPapel4 = 'Lagarto come Papel!';
-    tesouraVsPapel4 = tesouraVsPapel4.replace("Lagarto", "Tesoura");
-    tesouraVsPapel4 = tesouraVsPapel4.replace("come", "corta");
+     var aftertesouraVsPapel4;
+     aftertesouraVsPapel4 = tesouraVsPapel4.replace("Lagarto", "Tesoura");
+     aftertesouraVsPapel4 = tesouraVsPapel4.replace("come", "corta");
 
 /*8*/var pedraVsTesoura2 = 'Veneno refuta Lagarto!';
-    pedraVsTesoura2 = pedraVsTesoura2.replace("Veneno", "Pedra");
-    pedraVsTesoura2 = pedraVsTesoura2.replace("refuta", "quebra");
-    pedraVsTesoura2 = pedraVsTesoura2.replace("Lagarto", "Tesoura");
+     var afterpedraVsTesoura2;
+     afterpedraVsTesoura2 = pedraVsTesoura2.replace("Veneno", "Pedra");
+     afterpedraVsTesoura2 = pedraVsTesoura2.replace("refuta", "quebra");
+     afterpedraVsTesoura2 = pedraVsTesoura2.replace("Lagarto", "Tesoura");
 
 /*9*/var papelVsPedra2 = 'Spock vaporiza Pedra!';
-    papelVsPedra2 = papelVsPedra2.replace("Spock", "Papel");
-    papelVsPedra2 = papelVsPedra2.replace("vaporiza", "embrulha");
+     var afterpapelVsPedra2;
+     afterpapelVsPedra2 = papelVsPedra2.replace("Spock", "Papel");
+     afterpapelVsPedra2 = papelVsPedra2.replace("vaporiza", "embrulha");
 
 /*10*/var pedraVsTesoura3 = 'Veneno esmaga Tesoura!';
-    pedraVsTesoura3 = pedraVsTesoura3.replace("Veneno", "Pedra");
-    pedraVsTesoura3 = pedraVsTesoura3.replace("esmaga", "quebra");
+      var afterpedraVsTesoura3;
+      afterpedraVsTesoura3 = pedraVsTesoura3.replace("Veneno", "Pedra");
+      afterpedraVsTesoura3 = pedraVsTesoura3.replace("esmaga", "quebra");
 
 //var game = [tesouraVsPaPel, papelVsPedra, pedraVsTesoura, tesouraVsPapel2, papelVsTesoura, 
 //   tesouraVsPapel3, tesouraVsPapel4, pedraVsTesoura2, papelVsPedra2, pedraVsTesoura3];
-console.log(tesouraVsPaPel);
-console.log(papelVsPedra);
-console.log(pedraVsTesoura);
-console.log(tesouraVsPapel2);
-console.log(papelVsTesoura);
-console.log(tesouraVsPapel3);
-console.log(tesouraVsPapel4);
-console.log(pedraVsTesoura2);
-console.log(papelVsPedra2);
-console.log(pedraVsTesoura3);
+console.log('Não precisei mudar nada nesta String' + tesouraVsPaPel);
+console.log('Usei o método replace para mudar palavras da String ' + papelVsPedra + ' para a string ' + afterpapelVsPedra);
+console.log('Usei o método replace para mudar palavras da String ' + pedraVsTesoura + ' para a string ' + afterpedraVsTesoura);
+console.log('Usei o método replace para mudar palavras da String ' + tesouraVsPapel2 + ' para a string ' + aftertesouraVsPapel2);
+console.log('Usei o método replace para mudar palavras da String ' + papelVsTesoura + ' para a string ' + afterpapelVsTesoura);
+console.log('Usei o método replace para mudar palavras da String ' + tesouraVsPapel3 + ' para a string ' + aftertesouraVsPapel3);
+console.log('Usei o método replace para mudar palavras da String ' + tesouraVsPapel4 + ' para a string ' + aftertesouraVsPapel4);
+console.log('Usei o método replace para mudar palavras da String ' + pedraVsTesoura2 + ' para a string ' + afterpedraVsTesoura2);
+console.log('Usei o método replace para mudar palavras da String ' + papelVsPedra2 + ' para a string ' + afterpapelVsPedra2);
+console.log('Usei o método replace para mudar palavras da String ' + pedraVsTesoura3 + ' para a string ' + afterpedraVsTesoura3);
