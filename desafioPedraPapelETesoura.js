@@ -2,6 +2,7 @@
 /*2*/var papelVsPedra = 'Papel cobre Veneno!';
      var afterpapelVsPedra;
      afterpapelVsPedra = papelVsPedra.replace("Veneno", "Pedra");
+     afterpapelVsPedra = papelVsPedra.replace("cobre", "embrulha");
 
 /*3*/var pedraVsTesoura = 'Pedra esmaga Lagarto!';
      var afterpedraVsTesoura;
@@ -9,7 +10,7 @@
      afterpedraVsTesoura = pedraVsTesoura.replace("Lagarto", "Tesoura");
 
 /*4*/var tesouraVsPapel2 = 'Lagarto corta Spock!';
-     var aftertesouraVsPapel2
+     var aftertesouraVsPapel2;
      aftertesouraVsPapel2 = tesouraVsPapel2.replace("Lagarto", "Tesoura");
      aftertesouraVsPapel2 = tesouraVsPapel2.replace("Spock", "Papel");
 
@@ -46,7 +47,7 @@
 
 //var game = [tesouraVsPaPel, papelVsPedra, pedraVsTesoura, tesouraVsPapel2, papelVsTesoura, 
 //   tesouraVsPapel3, tesouraVsPapel4, pedraVsTesoura2, papelVsPedra2, pedraVsTesoura3];
-console.log('Não precisei mudar nada nesta String' + tesouraVsPaPel);
+console.log('Não precisei mudar nada nesta String ' + tesouraVsPaPel);
 console.log('Usei o método replace para mudar palavras da String ' + papelVsPedra + ' para a string ' + afterpapelVsPedra);
 console.log('Usei o método replace para mudar palavras da String ' + pedraVsTesoura + ' para a string ' + afterpedraVsTesoura);
 console.log('Usei o método replace para mudar palavras da String ' + tesouraVsPapel2 + ' para a string ' + aftertesouraVsPapel2);
